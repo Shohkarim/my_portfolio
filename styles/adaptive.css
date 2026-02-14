@@ -1,0 +1,138 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+    .profession-text{
+        font-size: calc(28px + (52 - 28) * ((100vw - 600px) / (1200 - 600)));
+    }
+
+    .project-item-image{
+        margin-left: 40px;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+
+    .about-content{
+        justify-content: space-between;
+    }
+
+    .project-items{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .project-item-data {
+      order: 2;
+      max-width: 768px;
+    }
+    .project-item-image{
+        order: 1;
+        margin-bottom: 20px;
+        width: 768px;
+        height: 450px;
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .contacts a > svg {
+        font-size: 28px;
+        width: 28px;
+        height: 28px;
+    }
+    .contacts a {
+        font-size: 24px;
+    }
+
+    .profession {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .about-content{
+        gap: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-item-image{
+        width: 100%;
+        height:auto;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    .logo img {
+        width: 150px;
+        height: 100px;
+        border-radius: 5px;
+    }
+    .contacts a > svg {
+        width: 16px;
+        height: 16px;
+    }
+    .contacts a {
+        font-size: 16px;
+    }
+    .contacts .telegram {
+       display: none;
+    }
+
+    .profession {
+        padding-bottom: 50px;
+    }
+    .profession-text{
+        font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (575 - 320)));
+    }
+
+    .about {
+        padding-bottom: 40px;
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .logo img {
+        width: 100px;
+    }
+
+    .profession {
+        padding-bottom: 50px;
+    }
+    .profession-text span{
+        display: block;
+    }
+    .profession-text{
+        font-size: 20px;
+    }
+
+    .about-content{
+        gap: 20px;
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
+    .footer-contact-social{
+        gap: 25px;
+    }
+
+    .footer-contact-social a > svg{
+        width: 28px;
+        height: 28px;
+    }
+
+    a.button {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+}
+
