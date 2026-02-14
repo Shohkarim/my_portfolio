@@ -8,10 +8,6 @@ $(document).ready(function () {
         $('.header')[0].scrollIntoView({behavior: "smooth", block: "center",});
     });
 
-    $('.product-image').magnificPopup({
-        type: 'image'
-    });
-
     new WOW({
         animateClass: 'animate__animated',
     }).init();
